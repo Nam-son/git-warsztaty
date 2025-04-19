@@ -1,1 +1,11 @@
+def main():
+    # Pobieranie danych od użytkownika
+    imie = input("Jak masz na imię? ")
+    wiek = int(input("Ile masz lat? "))
+
+    # Wyświetlanie wiadomości powitalnej
+    print(f"Cześć, {imie}! Masz {wiek} lat.")
+
+if __name__ == "__main__":
+    main()
 
